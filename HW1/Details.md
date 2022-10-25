@@ -1,4 +1,6 @@
-Homework #1  
+# Homework #1  
+
+# Task Requirements
 Deadline (hard):    
 Your respective lab in the week of October 24-30.As was described in the laboratory, the homework consists of the following:  
 •Components:  RBG  LED  (1  minimum),  potentiometers  (3  minimum), resistors and wires (per logic)  
@@ -12,3 +14,8 @@ Your respective lab in the week of October 24-30.As was described in the laborat
 1.  ”potValue / 4” is not precise, since the value does not always splitinto 4 perfectly.  Use themap() function    
 2.  We calculate the value inside the analogWrite function   
 3.potValueandpotPinare not ideal naming versions. What happensif you change your potentiomer with a slider?  (a slider has the sameoutput range, so no change to the code would be needed - if writtencorrectly)4. 4is  a  magic  number.5.0and1023.0are  magic  numbers.   Theyshould be replaced with constants, such asmaxAnalogValue, max-VoltageValue etc  
+
+# Picture of the setup:
+![20221025_232720](https://user-images.githubusercontent.com/79162778/197879955-f770254f-0910-49e1-a922-af982c2cc92c.jpg)
+# Link to the video:
+ https://youtu.be/K3GXn9-0YPw
