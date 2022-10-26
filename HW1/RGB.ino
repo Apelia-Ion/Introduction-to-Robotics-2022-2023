@@ -3,9 +3,9 @@ const int minAnalogValue = 0;
 const int maxDutyCycle = 255;
 const int minDutyCycle = 0;
 
-const int potLedRed = A0;
-const int potLedGreen = A1;
-const int potLedBlue = A2;
+const int potLedRed = A1;
+const int potLedGreen = A2;
+const int potLedBlue = A3;
 
 const int pinLedRed = 11;
 const int pinLedGreen = 10;
