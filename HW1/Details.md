@@ -19,4 +19,4 @@ Your respective lab in the week of October 24-30.As was described in the laborat
 # Picture of the setup:
 ![20221025_232720](https://user-images.githubusercontent.com/79162778/197879955-f770254f-0910-49e1-a922-af982c2cc92c.jpg)
 # Link to the video:
- https://youtu.be/K3GXn9-0YPw
+https://youtube.com/shorts/hkIg3Q7FgF4
