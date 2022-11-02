@@ -1,4 +1,4 @@
-# Homework #2
+# :vertical_traffic_light: Homework #2 :vertical_traffic_light:
 # Task Requirements
 Deadline (hard):  Your respective lab in week October 31 - November6.  You must have the Git ready and the assignment turned in beforethe lab.  
 As was described in the course, the homework consists of the following:  
