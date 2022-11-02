@@ -22,6 +22,11 @@ The system has the following states:
 
 •Coding task:Coding style is of utmost importance.  You must have aperfectly clean code in order to receive the maximum grade.  An importantcoding challenge present in this task is using millis() instead of delay(). However, remember that the bulk of the grade is if the projectsworks. Do not tend to small details unless you have the entire functionality done. 
 
-# Picture of the setup
+# Picturs of the setup
+![20221103_000709](https://user-images.githubusercontent.com/79162778/199618085-fddde7e6-0879-423a-ad5f-8f382c79ca19.jpg)
+![20221103_000659](https://user-images.githubusercontent.com/79162778/199618092-763fa528-7eae-4b1b-866f-edaf69156cd1.jpg)
+![20221103_000734](https://user-images.githubusercontent.com/79162778/199618095-a70e00a7-e450-40c4-aa4e-e8f719b19a1d.jpg)
 
 # Link to video showcasing functionality
+https://youtu.be/WNI7GOdL0Eo
+
