@@ -9,6 +9,8 @@ The system has the following states:
 2.State  2(initiated  after  a  button  press  in  State  1):   The  currentsegment  stops  blinking,  adopting  the  state  of  the  segment  beforeselection (ON or OFF). Toggling the X (or Y, you chose) axis shouldchange  the  segment  state  from  ON  to  OFF  or  from  OFF  to  ON.Clicking the joystick should save the segment state and exit back tostate 1.
 
 # Picture of the setup
+![20221109_233654](https://user-images.githubusercontent.com/79162778/200953406-da197c5f-26ef-4b01-83fc-6fa3dffa4c4e.jpg)
 
 # Link to video showcasing functionality
+https://youtube.com/shorts/mVYgVdL7oao
 
