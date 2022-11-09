@@ -233,6 +233,7 @@ void buttonPress() {
 }
 
 bool longButtonPress(){
+  longPress = false;
   if (millis() - pressedTime > resetTime)
     longPress = true;
   return longPress;
