@@ -11,6 +11,8 @@ Use the joystick to move through the 4 digit 7segment displays digits, press the
 3.  Reset:  toggled by long pressing the buttononly in the first state.When resetting, all the digits go back to 0 and the current positionis set to the first (rightmost) digit, in the first state.
 
 #  Picture of the setup
+![20221113_212626](https://user-images.githubusercontent.com/79162778/201541967-80760647-e67c-461c-a834-5cf022d35fab.jpg)
 
 
 # Link to video showcasing functionality
+https://youtube.com/shorts/1ZTTf7xqs2w
