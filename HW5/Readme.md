@@ -29,7 +29,8 @@ The menu should include the following functionality:
   (b) Screen 2: display relevant game info: score, time, lives left etc. Must inform player if he/she beat the highscore. This menu should only be closed by the player, pressing a button.  
   
   # Picture of the setup
-  ![Gamemenu](https://user-images.githubusercontent.com/79162778/206300669-43e4f965-fb5a-4b23-bb24-eefe3293fac4.jpg)
+
+  <img src="https://user-images.githubusercontent.com/79162778/206300669-43e4f965-fb5a-4b23-bb24-eefe3293fac4.jpg" width="400" height="500" />
 
   
   # Link to video showcasing functionality  
