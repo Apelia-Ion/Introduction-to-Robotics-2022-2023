@@ -28,6 +28,9 @@ The menu should include the following functionality:
   (a) Screen 1: a message such as ”Congratulations on reaching level/score X”. ”You did better than y people.”. etc. Switches to screen 2 upon interaction (button press) or after a few moments.  
   (b) Screen 2: display relevant game info: score, time, lives left etc. Must inform player if he/she beat the highscore. This menu should only be closed by the player, pressing a button.  
   
-  # Picture of the setup  
+  # Picture of the setup
+  ![Gamemenu](https://user-images.githubusercontent.com/79162778/206300669-43e4f965-fb5a-4b23-bb24-eefe3293fac4.jpg)
+
   
   # Link to video showcasing functionality  
+  https://youtube.com/shorts/ge_R88v8s_0
