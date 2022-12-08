@@ -82,6 +82,12 @@ unsigned long long lastMoved = 0;
 
 bool matrixChanged = true;
 
+bool gameShouldRun = false;
+
+
+
+//Structs
+
 struct highscores{
   char name[10] = "Unknown";
   unsigned int score = 0;
@@ -126,6 +132,10 @@ byte downArrow[] = {
 unsigned long lastPrint = 0;
 unsigned long lastTime;
 
+char gameName[]="snakey";
+char github[]="Apelia-Ion";
+char instructions[]="Use the joystick to play. Click to exit. That's all!";
+
 
 void setup() {
 
@@ -147,17 +157,12 @@ void setup() {
   initializeHighScoreEeprom();
 
  Serial.begin(9600);
-
- 
 }
 
 
 
 void loop() {
   Welcome();
-  
-  
-     
 }
 
 // theoretical example
@@ -303,19 +308,24 @@ void Welcome(){
      case 1:
      {
        SubMenu(page);
+       if (gameShouldRun)
+       {
+         rudimentaryGame();
+       }
        buttonPress();
       if (buttonPressed == true)
       {
         mainMenu = 0;
         clear = 0;
+        if(gameShouldRun){
+          gameShouldRun = false;
+          lc.clearDisplay(0);
+        }
       }       
      }
      break;
-
    } 
-  
   }
-  
 }
 
 //2 function that allows to scroll through the menu options
@@ -493,6 +503,7 @@ void SubMenu(int page){
       case 0:{     //Page 0
         lcd.setCursor(0,0);
         lcd.print("U are playing");
+        gameShouldRun = true;
         rudimentaryGame();
 
       }
@@ -515,12 +526,14 @@ void SubMenu(int page){
       case 3: {   //Page 3
       lcd.setCursor(0,0);
       lcd.print("About");
+      about();
       }
       break;
 
       case 4: {   //Page 4
       lcd.setCursor(0,0);
       lcd.print("How to play");
+      instruction();
       }
       break;
     }
@@ -552,6 +565,33 @@ void highscore(){
   }
 
 
+}
+
+void scrollText(char text[]){
+
+  unsigned int i=0;
+  // set the cursor to (0,0):
+  lcd.setCursor(0, 1);
+  
+  while(text[i]!='\0'){
+  lcd.print(text[i]);
+   
+ 	if(i>=16)
+	{
+    lcd.command(0x18); //Scrolling text to Right
+  }
+   delay(100);
+   i++;
+   } 
+}
+
+void about(){
+  scrollText(gameName);
+  scrollText(github);
+}
+
+void instruction(){
+  scrollText(instructions);
 }
 
 
