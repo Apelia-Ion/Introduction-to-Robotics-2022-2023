@@ -34,4 +34,4 @@ The menu should include the following functionality:
 
   
   # Link to video showcasing functionality  
-  https://youtube.com/shorts/ge_R88v8s_0
+  https://youtu.be/SGkTvVQ49xY
